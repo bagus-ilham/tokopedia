@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: var(--NN1000, rgba(0, 0, 0, 0.54))
+}
+
+.body {
+    height: 100%;
+    background: var(--NN0, #FFFFFF);
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+/* Header */
+/* Top Header */
+.container-header {
+    display: block;
+    margin-top: 110px;
+    padding-top: 1px;
+}
+
+.container-header .wrapper-header {
+    flex-direction: column;
+    width: 100%;
+    min-width: 1024px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.07);
+    height: 110px;
+}
+/* Box Atas */
+.container-header .wrapper-header .top-header {
+    width: 95%;
+    display: flex;
+    height: 32px;
+    z-index: 3;
+    background-color: #f3f4f5;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0 32px;
+    position: fixed;
+    justify-content: space-between;
+    left: 0px;
+    right: 0px;
+}
+/* Box Atas */
+/* Download tokopedia */
+.container-header .wrapper-header .top-header i {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/413cd754.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+    display: inline-block;
+}
+
+.container-header .wrapper-header .top-header .download-tokopedia-app {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-width: 168px;
+    margin-right: 16px;
+}
+
+.container-header .wrapper-header .top-header .download-tokopedia-app h3 {
+    color: rgba(49,53,59,0.68);
+    font-size: 12px;
+    line-height: 31px;
+    transition: color 200ms ease;
+    cursor: pointer;
+}
+
+.container-header .wrapper-header .top-header .download-tokopedia-app h3:hover {
+    color: rgb(3,172,14);
+}
+/* Download tokopedia */
+/* Navbar Atas */
+.container-header .wrapper-header .navbar-top-header {
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    width: 533px;
+}
+
+.container-header .wrapper-header .navbar-top-header h3 {
+    color: rgba(49,53,59,0.68);
+    font-size: 12px;
+    line-height: 31px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.container-header .wrapper-header .navbar-top-header h3:hover {
+    color: rgb(3,172,14);
+}
+/* Navbar Atas */
+/* Top Header */
+
+/* Middle Header */
+/* Box Tengah */
+.container-header .wrapper-header .middle-header {
+    width: 96%;
+    left: 32px;
+    display: flex;
+    height: 56px;
+    top: 30px;
+    position: fixed;
+    align-items: center;
+}
+/* Box Tengah */
+/* Logo  Tokopedia */
+.container-header .wrapper-header .middle-header a {
+    width: 145px;
+    justify-content: center;
+    margin: 4px 0 0 4px;
+    flex-shrink: 0;
+}
+
+.container-header .wrapper-header .middle-header img {
+    width: 145px;
+    height: 32px;
+}
+/* Logo Tokopedia */
+
+/* Kategori */
+.container-header .wrapper-header .middle-header .kategori-header {
+    height: 100%;
+    margin: 1px 8px 0 10px;
+}
+
+.container-header .wrapper-header .middle-header .box-kategori h3 {
+    font-size: 12px;
+    line-height: 1.5;
+    height: 30px;
+    width: 58px;
+    cursor: pointer;
+    margin: 30px 8px 8px 20px;
+}
+
+.container-header .wrapper-header .middle-header .box-kategori h3:hover {
+    color: rgb(3,172,14) ;
+}
+/* Kategori */
+
+/* Pencarian */
+.container-header .wrapper-header .middle-header .pencarian-header{
+    display: flex;
+    align-items: center;
+    width: 68%;
+    position: relative;
+    min-width: 150px;
+}
+
+.container-header .wrapper-header .middle-header .pencarian-header .search-bar {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border: solid 1px var(--N75,#E5E7E9);
+    align-items: center;
+    height: 32px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.container-header .wrapper-header .middle-header .pencarian-header .search-bar img {
+    flex: 0 0 24px;
+    width: 20px;
+    height: 20px;
+}
+
+.container-header .wrapper-header .middle-header .pencarian-header .search-bar input {
+    border: 0;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+    min-width: 0;
+    min-height: 0;
+    width: 100%;
+    color: var(--NN950,#212121);
+    font-family: inherit;
+    background-color: transparent;
+    line-height: 20px;
+    outline: none;
+    height: auto;
+}
+/* Pencarian */
+/* Keranjang belanja */
+.container-header .wrapper-header .middle-header .kotak-belanja {
+    width: 3%;
+    margin: 0 0 0 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    z-index: 475;
+}
+
+.container-header .wrapper-header .middle-header .kotak-belanja .keranjang {
+    width: 36px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container-header .wrapper-header .middle-header .kotak-belanja .keranjang img {
+    background-position: 0 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/413cd754.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+/* Keranjang belanja */
+/* Masuk dan Daftar */
+.container-header .wrapper-header .middle-header .login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 158px;
+    margin: 0 0 0 14px;
+}
+
+.container-header .wrapper-header .middle-header .login .masuk button {
+    width: 47%;
+    height: 32px;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: white;
+    color: rgb(3,172,14);
+    cursor: pointer;
+    border: 1px solid rgb(3,172,14);
+}
+
+.container-header .wrapper-header .middle-header .login .daftar button {
+    width: 47%;
+    height: 32px;
+    color: white;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: rgb(3,172,14);
+    cursor: pointer;
+    border: none;
+}
+/* Masuk dan Daftar */
+/* Middle Header */
+
+/* Bottom Header */
+/* Box Bawah */
+.container-header .wrapper-header .bottom-header {
+    position: fixed;
+    top: 86px;
+    width: 45%;
+    left: 274px;
+    display: flex;
+    z-index: -1;
+}
+/* Box Bawah */
+/* Trending */
+.container-header .wrapper-header .bottom-header a {
+    color: rgba(49,53,59,0.68);
+    line-height: 1.5;
+    font-size: 12px;
+    margin: 0 2% 0 0%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-header .wrapper-header .bottom-header a:hover {
+    color: rgb(3,172,14);
+}
+/* Trending */
+/* Bottom-Header */
+
+/* Last Header */
+/* Box Last */
+.container-header .wrapper-header .last-header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 87px;
+    right: 0px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.container-header .wrapper-header .last-header img {
+    width: 14px;
+    height: 14px;
+    fill: var(--color-icon-enabled, #2E3137);
+}
+
+.container-header .wrapper-header .last-header .lokasi {
+    display: flex;
+    margin-left: 4px;
+    width: 80%;
+    padding-right: 36px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.container-header .wrapper-header .last-header .lokasi h3 {
+    
+    font-weight: 400;
+    color: var(--color-text-low,rgba(49,53,59,0.68));
+    margin: 0px 5px 0px 0px;
+} 
+
+.container-header .wrapper-header .last-header .lokasi h4 {
+    font-weight: 700;
+    color: var(--color-text-high,rgba(49,53,59,0.96));
+    margin-top: 1px;
+    max-width: 300px;
+}
+
+.container-header .wrapper-header .last-header .lokasi img {
+    width: 14px;
+    height: 14px;
+}
+
+/* Lokasi */
+/* Last Header */
+/* Header */
+
+/* Body */
+
+.container-body{
+    width: 90%;
+    margin: 0px 70px;
+}
+
+.container-body .wrapper-body {
+    position: relative;
+    width: 100%;
+    margin: 24px 0px 19px;
+    border-color: var(--NN200,#D6DFEB);
+    background-color: var(--NN0,#FFFFFF);
+}
+
+.container-body .wrapper-body .judul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-body .wrapper-body .box-konten {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-body .wrapper-body .box-konten .konten {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px;
+    border-radius: 9px;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.container-body .wrapper-body .box-konten .konten img {
+    width: 188px;
+    height: 188px;
+}
+
+.container-body .wrapper-body .box-konten .konten a {
+    text-decoration: none;
+}
+
+.container-body .wrapper-body .box-konten .konten p {
+    color: #212121;
+    margin-left: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten h2 {
+    color: #212121;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten .diskon {
+    display: flex;
+    margin-left: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten .diskon h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: var(--RN500,#F94D63);
+    background-color: var(--RN100,#FFDBE2);
+    font-size: 0.714286rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 4px 0px 0px;
+}
+
+.container-body .wrapper-body .box-konten .konten .diskon h3 {
+    font-size:  0.714286rem;
+    margin-top: 4px;
+}
+
+.container-body .wrapper-body .box-konten .konten .lokasi {
+    display: flex;
+    margin-left: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten .lokasi img {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten .lokasi p {
+    color: #6d7588;
+    margin-left: 2px;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.container-body .wrapper-body .box-konten .konten .bintang {
+    display: flex;
+    margin-left: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten .bintang img {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.container-body .wrapper-body .box-konten .konten .bintang p {
+    color: #6d7588;
+    margin-left: 2px;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+
