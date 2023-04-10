@@ -16,14 +16,14 @@
 /* Top Header */
 .container-header {
     display: block;
-    margin-top: 110px;
+    margin-top: 6.875rem;
     padding-top: 1px;
 }
 
 .container-header .wrapper-header {
     flex-direction: column;
     width: 100%;
-    min-width: 1024px;
+    min-width: 64rem;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -33,17 +33,17 @@
     right: 0;
     left: 0;
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.07);
-    height: 110px;
+    height: 6.875rem;
 }
 /* Box Atas */
 .container-header .wrapper-header .top-header {
     width: 95%;
     display: flex;
-    height: 32px;
+    height: 2rem;
     z-index: 3;
     background-color: #f3f4f5;
     border-bottom: 1px solid #f3f3f3;
-    padding: 0 32px;
+    padding: 0 2rem;
     position: fixed;
     justify-content: space-between;
     left: 0px;
@@ -52,8 +52,8 @@
 /* Box Atas */
 /* Download tokopedia */
 .container-header .wrapper-header .top-header i {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/413cd754.svg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -66,13 +66,13 @@
     display: flex;
     align-items: center;
     min-width: 168px;
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .container-header .wrapper-header .top-header .download-tokopedia-app h3 {
     color: rgba(49,53,59,0.68);
-    font-size: 12px;
-    line-height: 31px;
+    font-size: 0.75rem;
+    line-height: 1.938rem;
     transition: color 200ms ease;
     cursor: pointer;
 }
@@ -86,18 +86,23 @@
     display: flex;
     margin: 0;
     justify-content: space-around;
-    width: 533px;
+    width: 33.31rem;
 }
 
-.container-header .wrapper-header .navbar-top-header h3 {
+.container-header .wrapper-header .menu img {
+    width: 0px;
+    height: 0px;
+}
+
+.container-header .wrapper-header .menu .navbar-top-header h3 {
     color: rgba(49,53,59,0.68);
-    font-size: 12px;
-    line-height: 31px;
+    font-size: 0.75rem;
+    line-height: 1.94rem;
     flex-wrap: nowrap;
     cursor: pointer;
 }
 
-.container-header .wrapper-header .navbar-top-header h3:hover {
+.container-header .wrapper-header .menu .navbar-top-header h3:hover {
     color: rgb(3,172,14);
 }
 /* Navbar Atas */
@@ -107,25 +112,25 @@
 /* Box Tengah */
 .container-header .wrapper-header .middle-header {
     width: 96%;
-    left: 32px;
+    left: 2rem;
     display: flex;
-    height: 56px;
-    top: 30px;
+    height: 3.5rem;
+    top: 1.875rem;
     position: fixed;
     align-items: center;
 }
 /* Box Tengah */
 /* Logo  Tokopedia */
 .container-header .wrapper-header .middle-header a {
-    width: 145px;
+    width: 9.1rem;
     justify-content: center;
     margin: 4px 0 0 4px;
     flex-shrink: 0;
 }
 
 .container-header .wrapper-header .middle-header img {
-    width: 145px;
-    height: 32px;
+    width: 9.1rem;
+    height: 2rem;
 }
 /* Logo Tokopedia */
 
@@ -136,12 +141,12 @@
 }
 
 .container-header .wrapper-header .middle-header .box-kategori h3 {
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.5;
-    height: 30px;
-    width: 58px;
+    height: 1.875rem;
+    width: 3.63rem;
     cursor: pointer;
-    margin: 30px 8px 8px 20px;
+    margin: 1.875rem 0.5rem 0.5rem 1.25rem;
 }
 
 .container-header .wrapper-header .middle-header .box-kategori h3:hover {
@@ -155,7 +160,7 @@
     align-items: center;
     width: 68%;
     position: relative;
-    min-width: 150px;
+    min-width: 9.3rem;
 }
 
 .container-header .wrapper-header .middle-header .pencarian-header .search-bar {
@@ -164,21 +169,21 @@
     box-sizing: border-box;
     border: solid 1px var(--N75,#E5E7E9);
     align-items: center;
-    height: 32px;
+    height: 2rem;
     border-radius: 8px;
     margin-top: 10px;
 }
 
 .container-header .wrapper-header .middle-header .pencarian-header .search-bar img {
     flex: 0 0 24px;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .container-header .wrapper-header .middle-header .pencarian-header .search-bar input {
     border: 0;
     padding: 10px;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-bottom: 0;
     min-width: 0;
     min-height: 0;
@@ -186,7 +191,7 @@
     color: var(--NN950,#212121);
     font-family: inherit;
     background-color: transparent;
-    line-height: 20px;
+    line-height: 1.25rem;
     outline: none;
     height: auto;
 }
@@ -198,20 +203,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 58px;
+    height: 3.625rem;
     z-index: 475;
 }
 
 .container-header .wrapper-header .middle-header .kotak-belanja .keranjang {
-    width: 36px;
-    height: 30px;
+    width: 2rem;
+    height: 1.875rem;
     cursor: pointer;
 }
 
 .container-header .wrapper-header .middle-header .kotak-belanja .keranjang img {
     background-position: 0 0;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/413cd754.svg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -229,11 +234,11 @@
 
 .container-header .wrapper-header .middle-header .login .masuk button {
     width: 47%;
-    height: 32px;
+    height: 2rem;
     padding: 0px 16px;
     font-weight: 800;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 0.75rem;
     background: white;
     color: rgb(3,172,14);
     cursor: pointer;
@@ -242,12 +247,12 @@
 
 .container-header .wrapper-header .middle-header .login .daftar button {
     width: 47%;
-    height: 32px;
+    height: 2rem;
     color: white;
     padding: 0px 16px;
     font-weight: 800;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 0.75rem;
     background: rgb(3,172,14);
     cursor: pointer;
     border: none;
@@ -259,9 +264,9 @@
 /* Box Bawah */
 .container-header .wrapper-header .bottom-header {
     position: fixed;
-    top: 86px;
+    top: 5.375rem;
     width: 45%;
-    left: 274px;
+    left: 17.125rem;
     display: flex;
     z-index: -1;
 }
@@ -270,7 +275,7 @@
 .container-header .wrapper-header .bottom-header a {
     color: rgba(49,53,59,0.68);
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 0 2% 0 0%;
     cursor: pointer;
     text-decoration: none;
@@ -288,15 +293,15 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top: 87px;
+    top: 5.4375rem;
     right: 0px;
     cursor: pointer;
     z-index: -1;
 }
 
 .container-header .wrapper-header .last-header img {
-    width: 14px;
-    height: 14px;
+    width: 0.875rem;
+    height: 0.875rem;
     fill: var(--color-icon-enabled, #2E3137);
 }
 
@@ -304,9 +309,9 @@
     display: flex;
     margin-left: 4px;
     width: 80%;
-    padding-right: 36px;
-    font-size: 12px;
-    line-height: 16px;
+    padding-right: 2rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 
 .container-header .wrapper-header .last-header .lokasi h3 {
@@ -320,29 +325,29 @@
     font-weight: 700;
     color: var(--color-text-high,rgba(49,53,59,0.96));
     margin-top: 1px;
-    max-width: 300px;
+    max-width: 18.75rem;
 }
 
 .container-header .wrapper-header .last-header .lokasi img {
-    width: 14px;
-    height: 14px;
+    width: 0.875rem;
+    height: 0.875rem;
 }
 
 /* Lokasi */
 /* Last Header */
-/* Header */ 
+/* Header */
 
 /* Body */
 .container-body {
     display: block;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     padding-top: 1px;
-    margin-left: 90px;
+    margin-left: 5.625rem;
 }
 
 .container-body .wrapper-body {
     margin: auto;
-    padding: 19px 0px 0px;
+    padding: 1.2rem 0px 0px;
 }
 
 hr {
@@ -350,19 +355,19 @@ hr {
 }
 
 .container-body .wrapper-body .task {
-    margin-bottom: 19px;
+    margin-bottom: 1.2rem;
     display: flex;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .container-body .wrapper-body .task h5 {
     color: rgb(3,172,14) ;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .container-body .wrapper-body .task p {
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .container-body .wrapper-body .produk {
@@ -372,8 +377,8 @@ hr {
 }
 
 .container-body .wrapper-body .produk .foto-besar img {
-    width: 348px;
-    height: 348px;
+    width: 21.75rem;
+    height: 21.75rem;
     transition: transform 0.3s ease;
 }
 
@@ -391,10 +396,11 @@ hr {
 }
 
 .container-body .wrapper-body .produk .foto-kecil img {
-    width: 60px;
-    height: 60px;
-    padding-right: 20px;
+    width: 3.75rem;
+    height: 3.75rem;
+    padding-right: 1.25rem;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .container-body .wrapper-body .produk .nama-produk .judul-produk h2 {
@@ -408,41 +414,41 @@ hr {
 .container-body .wrapper-body .produk .nama-produk .penilaian-produk {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     color: var(--NN700,#525867);
 }
 
 .container-body .wrapper-body .produk .nama-produk .penilaian-produk p {
     font-size: 1rem;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .container-body .wrapper-body .produk .nama-produk .penilaian-produk span {
     font-size: 1rem;
-    line-height: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    line-height: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 
 .container-body .wrapper-body .produk .nama-produk .harga-produk {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .container-body .wrapper-body .produk .nama-produk .harga-produk h2 {
     margin-bottom: 4px;
     font-size: 2rem;
-    line-height: 34px;
+    line-height: 2.125rem;
     font-weight: bold;
     color: var(--NN950,#212121);
 }
 
 .container-body .wrapper-body .produk .nama-produk .warna {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .container-body .wrapper-body .produk .nama-produk .warna h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: black;
 }
 
@@ -450,7 +456,7 @@ hr {
     display: flex;
     margin-left: 2px;
     gap: 5px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .container-body .wrapper-body .produk .warna .box-warna button {
@@ -458,7 +464,7 @@ hr {
     align-items: center;
     font-size: 1rem;
     line-height: 1.28571rem;
-    height: 30px;
+    height: 1.875rem;
     padding: 4px 12px;
     border-radius: 12px;
     cursor: pointer;
@@ -475,7 +481,7 @@ hr {
 
 .container-body .wrapper-body .produk .detail {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .container-body .wrapper-body .produk .detail .box-detail button {
@@ -483,7 +489,7 @@ hr {
     min-height: 44px;
     padding: 10px 24px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -496,7 +502,7 @@ hr {
 }
 
 .container-body .wrapper-body .produk .detail .box-detail h3 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     margin-bottom: 5px;
 }
@@ -521,19 +527,19 @@ hr {
 }
 
 .container-body .wrapper-body .produk .penjual .nama-penjual img {
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
     cursor: pointer;
 }
 
 .container-body .wrapper-body .produk .penjual .nama-penjual .box-logo {
     flex-direction: column;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 0.625rem;
+    margin-top: 0.625rem;
 }
 
 .container-body .wrapper-body .produk .penjual .nama-penjual .box-logo h3 {
-    font-size: 15px;
+    font-size: 1rem;
     color: var(--NN600,#6D7588);
 }
 
@@ -757,6 +763,7 @@ hr {
 .container-body .wrapper-body .produk .masalah .laporkan {
     display: flex;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .container-body .wrapper-body .produk .masalah .laporkan img {
@@ -918,4 +925,136 @@ hr {
     font-weight: bold;
 }
 
+.responsif{
+    align-items: center;
+    display: none;
+    margin-top: 5px;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    justify-content:space-around;
+    background-color: #f3f3f3;
+    width: 100%;
+}
 
+.responsif img {
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.responsif button {
+    border-radius: 6px;
+    border: 1px solid #f3f4f5;
+}
+
+.responsif .responsif-beli button {
+    background-color: var(--NN0,#FFFFFF);
+    border: 1px solid var(--GN500,#00AA5B);
+    border-radius: 8px;
+    color: var(--GN500,#00AA5B);
+    cursor: pointer;
+    font-size: 1rem;
+    height: 36px;
+    outline: none;
+    width: 120px;
+    margin: 8px 0px;
+}
+
+.responsif .responsif-beli span {
+    color: #00AA5B;
+    font-weight: bold;
+}
+
+.responsif .responsif-keranjang button {
+    background-color: var(--GN500,#00AA5B);
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    line-height: 20px;
+    outline: none;
+    margin: 8px 0px;
+    width: 120px;
+}
+
+.responsif .responsif-keranjang span {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px){
+    .container-header .wrapper-header .top-header .navbar-top-header {
+        display: none;
+    }
+
+    .container-header .wrapper-header .menu img {
+        height: 20px;
+        width: 20px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+
+    .container-header .wrapper-header .middle-header .box-kategori {
+        display: none;
+    }
+
+    .container-header .wrapper-header .middle-header .pencarian-header{
+        margin-left: 20px;
+    }
+
+    .container-header .wrapper-header .bottom-header {
+        display: none;
+    } 
+    
+    .container-body {
+        display: block;
+        margin-top: 8px;
+        padding-top: 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .container-body .wrapper-body {
+        margin: auto;
+        padding: 19px 0px 0px;
+    }
+
+    .container-body .wrapper-body .task p {
+        display: none;
+    }
+
+    .container-body .wrapper-body .produk {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .container-body .wrapper-body .produk .kotak-pembelian {
+        position: relative;
+        border: none;
+    }
+
+    .container-body .wrapper-body .box-pembelian {
+        display: none;
+    }
+
+    .responsif {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .container-header .wrapper-header .middle-header .login {
+        display: none;
+    }
+
+    .container-body .wrapper-body .produk .aplikasi .scan button {
+        border: none;
+    }
+}
