@@ -374,6 +374,15 @@ hr {
 .container-body .wrapper-body .produk .foto-besar img {
     width: 348px;
     height: 348px;
+    transition: transform 0.3s ease;
+}
+
+.container-body .wrapper-body .produk .foto-besar img:hover {
+    transform: scale(1.4);
+}
+
+.container-body .wrapper-body .produk .foto-besar img:hover:hover {
+    transform: scale(0.8);
 }
 
 .container-body .wrapper-body .produk .foto-kecil {
@@ -385,6 +394,7 @@ hr {
     width: 60px;
     height: 60px;
     padding-right: 20px;
+    cursor: pointer;
 }
 
 .container-body .wrapper-body .produk .nama-produk .judul-produk h2 {
@@ -513,6 +523,7 @@ hr {
 .container-body .wrapper-body .produk .penjual .nama-penjual img {
     width: 48px;
     height: 48px;
+    cursor: pointer;
 }
 
 .container-body .wrapper-body .produk .penjual .nama-penjual .box-logo {
@@ -540,6 +551,7 @@ hr {
     font-size: 16px;
     color: #212121;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .container-body .wrapper-body .produk .penjual .follow button{
@@ -615,13 +627,17 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
 .container-body .wrapper-body .produk .pengiriman .kurir .pilihan-kurir {
     display: flex;
 }
+
 .container-body .wrapper-body .produk .pengiriman .kurir h4 {
     margin-left: 26px;
     margin-top: 2px;
+    margin-right: 15px;
 }
+
 .container-body .wrapper-body .produk .pengiriman .kurir .pilihan-kurir button {
     border-radius: 3px;
     padding: 2px 4px;
@@ -634,6 +650,7 @@ hr {
     font-weight: bold;
     margin-right: 5 px;
 }
+
 .container-body .wrapper-body .produk .pengiriman .kurir p {
     color: #00AA5B;
     cursor: pointer;
@@ -739,6 +756,7 @@ hr {
 
 .container-body .wrapper-body .produk .masalah .laporkan {
     display: flex;
+    cursor: pointer;
 }
 
 .container-body .wrapper-body .produk .masalah .laporkan img {
